@@ -10,7 +10,7 @@ public class Plate {
     public void differentFood(int n){
         if (food < n ){
             ate_Satiety = false;
-            System.out.println("На тарелке мало еды!!!");
+            System.out.println("На тарелке мало еды!!!");//По сути с добавлением метода addPlateFood, данное условие никогда выполнятся не будет;
 
     } else {
             ate_Satiety = true;
